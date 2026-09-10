@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated data and BI exports
+data/**/*.csv
+data/**/*.parquet
+data/**/*.xlsx
+data/**/*.zip
+
+# Keep empty folder structure
+!data/.gitkeep
+!data/**/.gitkeep
+
+# BI artifacts
+*.pbix
+*.twb
+*.twbx
+*.hyper
+*.qvw
+*.qvd
+
+# Temporary files
+*.tmp
+*.bak
